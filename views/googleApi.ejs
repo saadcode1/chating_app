@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+    .upper-div{
+      height: 10vw;
+      background-color: aquamarine;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .inner-div{
+        margin-top: 35%;
+        width: 60vw;
+        height: 90vh;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid  #41525d;
+        flex-wrap: wrap;
+    }
+    .chiled-div-1 p{
+        font-size: 2vw;
+        padding: 10px;
+        color: #41525d;
+    }
+    .chiled-div-1 ul li{
+        font-size: 1.4vw;
+        margin-top: 15px;
+        color: #41525d;
+    }
+    .chiled-div-2{
+        width: 20vw;
+        height: 20vw;
+        background-color: blue;
+        background-image: url("https://cdn.ttgtmedia.com/rms/misc/qr_code_barcode.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5%;
+    }
+    @media (max-width:600px) {
+        .inner-div{
+        margin-top: 200%;
+        width: 75vw;
+        background-color:white;
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid  #41525d;
+        padding: 10px;
+    }
+    .chiled-div-1 ul li{
+        font-size: 3.5vw;
+        margin-top: 15px;
+        color: #41525d;
+    }
+    .chiled-div-1 p{
+        font-size: 7vw;
+        padding: 10px;
+        color: #41525d;
+    }
+    .chiled-div-2{
+        width: 50vw;
+        height: 50vw;
+        background-color: blue;
+        background-image: url("https://cdn.ttgtmedia.com/rms/misc/qr_code_barcode.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 5%;
+    }
+    }
+    </style>
+</head>
+<body>
+     <div class="upper-div">
+        <div class="inner-div">
+            <div class="chiled-div-1">
+                <p>Use WhatsApp on your computer</p>
+                <ul>
+                    <li>Open WhatsApp on your phone</li>
+                    <li>Tap Menu : on Android,or Settings on iPhone</li>
+                    <li>Tap Linked devices and then Link a Device</li>
+                    <li>Point your phone at this screen to capture the QR code</li>
+                    <a href="/logIn"><li>Direct Login!</li></a>
+                    <li>Click On Bar Code To <b>Login With Google Account!</b></li>
+                </ul>
+            </div>
+            <a href="/signIn">
+            <div class="chiled-div-2">
+    
+            </div>
+        </a>
+        </div>
+     </div>
+</body>
+</html>
